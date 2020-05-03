@@ -1,9 +1,11 @@
-require 'rails_helper'
+require "rails_helper"
 
+# rubocop:disable Metrics/BlockLength
 RSpec.describe StaticPagesController, type: :controller do
+  # rubocop:enable Metrics/BlockLength
   render_views
 
-  let(:base_title) { 'Ruby on Rails Tutorial Sample App' }
+  let(:base_title) { "Ruby on Rails Tutorial Sample App" }
 
   describe "#home" do
     # 正常にレスポンスを返すこと
