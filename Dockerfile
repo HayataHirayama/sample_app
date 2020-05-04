@@ -1,5 +1,5 @@
 # rubyのイメージを取得
-FROM ruby:2.5.3
+FROM ruby:2.6.6
 
 # 必要なパッケージをインストール
 RUN apt-get update -qq && \
